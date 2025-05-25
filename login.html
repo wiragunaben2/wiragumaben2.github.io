@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="/login/login.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="website icon" href="/images/visitswiss.png">
+        <script defer src="/login/login.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <a class="brand-name" style="font-family: 'Rubik', sans-serif;"
+                    href="/index.html">visitswiss</a>
+                <img src="/images/visitswiss.png" alt>
+            </div>
+            <ul style="font-family: 'Rubik', sans-serif; font-weight: bold;">
+                <li>
+                    Hotels
+                    <div class="dropdown">
+                        <a href="/Hotels/hotels.html">Hotel Deals</a>
+                    </div>
+                </li>
+                <li>
+                    Flights
+                    <div class="dropdown">
+                        <a href="/flights/flights.html">Airlines</a>
+                    </div>
+                </li>
+                <li>
+                    Cruises
+                    <div class="dropdown">
+                        <a href="/luxury cruises/luxurycruises.html">Luxury Cruises</a>
+                    </div>
+                </li>
+                <li>
+                    Tickets
+                    <div class="dropdown">
+                        <a href="/event tickets/eventtickets.html">Event Tickets</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <section class="login-section">
+            <div class="login-card">
+                <h2>Login to visitswiss</h2>
+                <form>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="you@example.com"
+                        required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password"
+                        placeholder="Enter your password" required>
+
+                    <button type="submit">Login</button>
+                    <p class="login-footer">Don't have an account? <a
+                            href="#">Sign up</a></p>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

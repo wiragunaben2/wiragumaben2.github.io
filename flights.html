@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flight Deals | visitswiss</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="website icon" href="/images/visitswiss.png">
+        <link rel="stylesheet" href="/flights/flights.css">
+        <script defer src="/flights/flights.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a class="brand-name"
+                        style="font-family: 'Rubik', sans-serif;" href="/index.html">visitswiss</a>
+                    <img src="/images/visitswiss.png" alt>
+                </div>
+                <ul
+                    style="font-family: 'Rubik', sans-serif; font-weight: bold;">
+                    <li>
+                        Hotels
+                        <div class="dropdown">
+                            <a href="/Hotels/hotels.html">Hotel Deals</a>
+                        </div>
+                    </li>
+                    <li>
+                        Flights
+                        <div class="dropdown">
+                            <a href="/flights/flights.html">Airlines</a>
+                        </div>
+                    </li>
+                    <li>
+                        Cruises
+                        <div class="dropdown">
+                            <a href="/luxury cruises/luxurycruises.html">Luxury
+                                Cruises</a>
+                        </div>
+                    </li>
+                    <li>
+                        Tickets
+                        <div class="dropdown">
+                            <a href="/event tickets/eventtickets.html">Event
+                                Tickets</a>
+                        </div>
+                    </li>
+                </ul>
+                <a class="get-started" style="font-family: 'Rubik', sans-serif;" href="/login/login.html">Get Started</a>
+            </nav>
+            <main>
+                <div class="flight-search">
+                    <div class="search-header">
+                        <h1>Find Cheap Flights & Airline Deals to Switzerland</h1>
+                        <p style="font-family:'poppins', sans-serif";>Compare prices from 500+ airlines and travel sites to find your perfect flight</p>
+                    </div>
+                    
+                    <div class="search-container">
+                        <div class="tabs">
+                            <button class="tab active">Round-trip</button>
+                            <button class="tab">One-way</button>
+                            <button class="tab">Multi-city</button>
+                        </div>
+                        
+                        <div class="search-form">
+                            <div class="form-row">
+                                <div class="input-group">
+                                    <i class="fa-solid fa-plane-departure"></i>
+                                    <input type="text" placeholder="From where?" class="airport-input">
+                                </div>
+                                <div class="input-group">
+                                    <i class="fa-solid fa-plane-arrival"></i>
+                                    <input type="text" placeholder="To Switzerland?" class="airport-input">
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="input-group">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <input type="date" placeholder="Departure" class="date-input">
+                                </div>
+                                <div class="input-group">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <input type="date" placeholder="Return" class="date-input">
+                                </div>
+                                <div class="input-group">
+                                    <i class="fa-solid fa-user-group"></i>
+                                    <select class="passenger-select" >
+                                        <option>1 adult</option>
+                                        <option>2 adults</option>
+                                        <option>3 adults</option>
+                                        <option>Family (2+2)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="input-group">
+                                    <i class="fa-solid fa-chair"></i>
+                                    <select class="class-select">
+                                        <option>Economy</option>
+                                        <option>Premium Economy</option>
+                                        <option>Business</option>
+                                        <option>First Class</option>
+                                    </select>
+                                </div>
+                                <button class="search-button">Search Flights</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="popular-destinations">
+                    <h2>Popular Swiss Destinations</h2>
+                    <div class="destinations-grid">
+                        <div class="destination-card">
+                            <img src="/images/zurich.jpg" alt="Zurich">
+                            <div class="card-content">
+                                <h3>Zurich (ZRH)</h3>
+                                <p style="font-family:'poppins', sans-serif";>From $399</p>
+                                <button>View Deals</button>
+                            </div>
+                        </div>
+                        <div class="destination-card">
+                            <img src="/images/geneva.jpg" alt="Geneva">
+                            <div class="card-content">
+                                <h3>Geneva (GVA)</h3>
+                                <p style="font-family:'poppins', sans-serif";>From $429</p>
+                                <button>View Deals</button>
+                            </div>
+                        </div>
+                        <div class="destination-card">
+                            <img src="/images/bern.jpg" alt="Bern">
+                            <div class="card-content">
+                                <h3>Bern (BRN)</h3>
+                                <p style="font-family:'poppins', sans-serif";>From $459</p>
+                                <button>View Deals</button>
+                            </div>
+                        </div>
+                        <div class="destination-card">
+                            <img src="/images/lucerne.jpg" alt="Basel">
+                            <div class="card-content">
+                                <h3>Lucerne (LCR)</h3>
+                                <p style="font-family:'poppins', sans-serif";>From $379</p>
+                                <button>View Deals</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flight-deals">
+                    <div class="deals-header">
+                        <h2 style="font-family: '';">Today's Best Flight Deals</h2>
+                        <p style="font-family:'poppins', sans-serif";>Limited time offers - Book now before prices rise!</p>
+                    </div>
+                    
+                    <div class="deals-list">
+                        <div class="deal-card">
+                            <div class="deal-info">
+                                <div class="route">
+                                    <span style="font-family:'poppins', sans-serif";>JFK -> ZRH</span>
+                                    <span class="deal-badge"; style="font-family:'poppins', sans-serif";>HOT DEAL</span>
+                                </div>
+                                <div class="price">$399 <span style="font-family:'poppins', sans-serif";>roundtrip</span></div>
+                                <div class="dates">Mar 10 - Mar 24</div>
+                                <div class="airline">SWISS Airlines</div>
+                            </div>
+                            <button class="book-button">Book Now</button>
+                        </div>
+                        
+                        <div class="deal-card">
+                            <div class="deal-info">
+                                <div class="route">
+                                    <span style="font-family:'poppins', sans-serif";>LAX -> GVA</span>
+                                    <span class="deal-badge" style="font-family:'poppins', sans-serif";>SAVE 35%</span>
+                                </div>
+                                <div class="price">$459 <span>roundtrip</span></div>
+                                <div class="dates">Apr 5 - Apr 19</div>
+                                <div class="airline">Lufthansa</div>
+                            </div>
+                            <button class="book-button">Book Now</button>
+                        </div>
+                        
+                        <div class="deal-card">
+                            <div class="deal-info">
+                                <div class="route">
+                                    <span style="font-family:'poppins', sans-serif";>ORD -> LCR</span>
+                                    <span class="deal-badge" style="font-family:'poppins', sans-serif";>LIMITED</span>
+                                </div>
+                                <div class="price">$379 <span>roundtrip</span></div>
+                                <div class="dates">May 15 - May 29</div>
+                                <div class="airline">Edelweiss Air</div>
+                            </div>
+                            <button class="book-button">Book Now</button>
+                        </div>
+                        
+                        <div class="deal-card">
+                            <div class="deal-info">
+                                <div class="route">
+                                    <span style="font-family:'poppins', sans-serif";>MIA -> ZRH</span>
+                                    <span class="deal-badge" style="font-family:'poppins', sans-serif";>NEW</span>
+                                </div>
+                                <div class="price">$429 <span>roundtrip</span></div>
+                                <div class="dates">Jun 1 - Jun 15</div>
+                                <div class="airline">SWISS Airlines</div>
+                            </div>
+                            <button class="book-button">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="name">
+                    <h2
+                        style="font-family: 'Rubik', sans-serif; margin-bottom: 5px;">visitswiss</h2>
+                    <p>Find a store</p>
+                    <p>Become a member</p>
+                </div>
+                <div class="offer">
+                    <h2
+                        style="font-family: 'Rubik', sans-serif; margin-bottom: 5px;">Offer</h2>
+                    <p>Find a store</p>
+                    <p>Delivery</p>
+                </div>
+                <div class="package">
+                    <h2
+                        style="font-family: 'Rubik', sans-serif; margin-bottom: 5px;">Company</h2>
+                    <p>About visitswiss</p>
+                    <p>Become a member</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
